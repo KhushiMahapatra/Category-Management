@@ -1,0 +1,38 @@
+[
+    {
+        "id": "4",
+        "name": "Home Appliances",
+        "parentId": null,
+        "status": "inactive"
+    },
+    {
+        "id": "6",
+        "name": "Electronics",
+        "parentId": null,
+        "status": "inactive"
+    },
+    {
+        "id": "8",
+        "name": "Library",
+        "parentId": null,
+        "status": "inactive"
+    },
+    {
+        "id": "7",
+        "name": "Laptop",
+        "parentId": "6",
+        "status": "inactive"
+    },
+    {
+        "id": "677ff73e56c84",
+        "name": "Fan",
+        "parentId": "4",
+        "status": "inactive"
+    },
+    {
+        "id": "6780c1cce1d55",
+        "name": "Mouse",
+        "parentId": "6",
+        "status": "inactive"
+    }
+]

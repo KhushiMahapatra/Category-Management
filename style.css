@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#main_container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #20105e;
+}
+
+/* Form Styling */
+form {
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #134663;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #406691;
+}
+/* Sort and Search */
+#sortOptions, #search_input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+table thead tr {
+    background-color: #daedf5;
+    color: #333;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Row Hover Effect */
+table tbody tr {
+    transition: background-color 0.3s;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styles in Table */
+table td button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+/* Different Button Colors */
+table td button:nth-child(1) { /* Edit Button */
+    background-color: #15446b;
+    color: white;
+}
+
+table td button:nth-child(1):hover {
+    background-color: #1976D2;
+}
+
+table td button:nth-child(2) { /* Delete Button */
+    background-color: #f44336;
+    color: white;
+}
+
+table td button:nth-child(2):hover {
+    background-color: #d32f2f;
+}
+
+table td button:nth-child(3) { /* Activate Button */
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td button:nth-child(3):hover {
+    background-color: #388E3C;
+}
+
+table td button:nth-child(4) { /* Deactivate Button */
+    background-color: #FF9800;
+    color: white;
+}
+
+table td button:nth-child(4):hover {
+    background-color: #F57C00;
+}
