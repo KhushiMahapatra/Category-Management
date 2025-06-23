@@ -1,7 +1,9 @@
 # Category-Management
 This is a Category Management web application built using PHP and AJAX. It allows users to manage product categories dynamically without full page reloads, offering a smoother and more responsive user experience.
 
-Features : 
+
+# Features : 
+
 Add new categories using AJAX-powered forms
 
 View all categories in real-time
@@ -20,7 +22,9 @@ Input validation and error handling
 
 Lightweight and responsive UI
 
-Technologies Used:
+
+# Technologies Used:
+
 PHP 
 
 AJAX 
