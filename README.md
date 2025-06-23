@@ -10,6 +10,12 @@ Edit category names dynamically
 
 Delete categories instantly without page reload
 
+Activate Category
+
+Deactivate Category
+
+Add parent category
+
 Input validation and error handling
 
 Lightweight and responsive UI
